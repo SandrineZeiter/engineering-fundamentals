@@ -12,4 +12,5 @@ test("increments count when button is clicked", () => {
     
     // Prüfen, ob sich der Text geändert hat
     expect(screen.getByText(/count is 1/i)).toBeInTheDocument();
+    
 });
